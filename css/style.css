@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container .nav .navbar .navbar-brand{
+    font-size: 40px;
+    font-weight: 900;
+}
+.nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.nav ul button{
+    border-radius: 30px;
+    padding: 7px 25px;
+    color: #fff;
+}
+.nav ul .btn-light{
+    background-color: rgb(187, 183, 170);
+
+
+}
+.home{
+    min-height: 86.9vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/programming.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home .text{
+    position: absolute;
+    align-items:center;
+    transform: translateY(70% );
+    justify-content: center;
+    color: #fff;
+
+}
+.home .text h1 span:first-child{
+    color: rgb(238, 255, 0);
+}
+
+.home .text h1 span:last-child{
+    color: rgb(250, 193, 4);
+
+}
+.home .text .btn-warning.text{
+    border-radius: 10px;
+    background: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid  rgb(250, 193, 4);
+}
+.home .text .btn-warning.text:hover{
+    background:  rgb(250, 193, 4);
+}
+
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about .row .col-md-6 .image{
+    width: 100%;
+}
+.about .row .col-md-6 .image img{
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.about .text{
+   padding-top: 50px;
+}
+.about .text .line::before{
+    content: "";
+    width: 30px;
+    height: 5px;
+    color: blue;
+}
+
+.about .btn-warning.about{
+    margin-top: 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+.services{
+    background-color: rgb(227, 237, 243);
+}
+.services h1{
+    position: relative;
+    text-align: center;
+
+    align-items: center;
+    padding:30px;
+  
+
+}
+.services h4{
+    font-weight: bold;
+}
+
+.services .col{
+    text-align: center;
+  
+   
+   
+}
+.services .card{
+    margin-bottom: 50px;
+}
+
+.services .card i{
+  padding: 30px 0 0 0;
+  color: rgb(247, 226, 43);
+
+}
+.services h1::after{position: absolute;
+ position: absolute;
+    width: 100px;
+    height: 5px;
+    color: red;
+    text-align: center;
+    align-items: center;
+}
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact .col-md-5 p{
+    margin-bottom: 30px;
+}
+.contact .col-md-5 .cont i{
+    font-size: 25px;
+}
+.contact .col-md-5 .cont a{
+    margin-left: 10px;
+    
+    padding: 20px ;
+    text-align: center;
+    background-color: rgb(255, 208, 0);
+    border-radius: 50%;
+  
+}
+
+.contact .form{
+    border: 1px solid rgb(202, 195, 195);
+    padding: 10px;
+}
+.contact .form input{
+    width: 95%;
+    height: 50px;
+    margin:  10px  ;
+    padding: 10px;
+    border: 1px solid rgb(202, 195, 195);
+    
+}
+
+.contact .form textarea{
+    width: 95%;
+    
+    margin:  10px  ;
+    padding: 10px;
+    border: 1px solid rgb(202, 195, 195);
+}
+
+.contact .form .btn{
+    background-color: rgb(255, 208, 0);
+}
+
+.contact .form .btn:hover{
+    background-color: rgb(202, 195, 195);
+
+}
+
+.latest{
+    margin-top: 80px;
+    background-color: rgb(227, 237, 243);
+
+}
+.latest h1{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.latest .card{
+    margin-bottom: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.latest .date{
+    position: absolute;
+    text-align: center;
+    margin: 7px;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(255, 187, 1);
+}
+.latest .card-body{
+    padding: 5px;
+}
+.latest p{
+    padding-bottom: 20px;
+}
+.latest .btn{
+    color: rgb(202, 136, 119);
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
+
+.footer{
+    background-color:#333;
+    color: #fff;
+    padding-top: 40px;
+    height: auto;
+    padding-bottom: 0;
+}
+.footer h4{
+  
+    letter-spacing:1px;
+  
+}
+.footer p{
+    margin-top: -10px;
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.footer .social a{
+    
+    color: #fff;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 10px;
+
+}
+
+.footer .social a:hover{
+    background-color: #fff;
+    color: #333;
+
+}
+
+
+.footer .list {
+    list-style: none;
+}
+.footer .list li{
+    margin-top: 10px;
+
+}
+
+.footer .list a{
+    color: #fff;
+}
+.footer .leads{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.footer .leadz{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.footer .search{
+    width: 90%;
+    background: none;
+    height: 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+}
+.footer .searching{
+   
+    position: absolute;
+    left:302px ;
+    padding-top: 9px;
+    padding-top: 9px;
+   font-size: 20px;
+    color: #fff;
+}
+
+.footer .lead-footer{
+    
+ 
+text-align: center;
+align-items: center;
+padding-bottom: 20px;
+padding-top: 50px;
+font-size: 18px;
+}
+
+.footer .line{
+   border: 1px solid #fff;
+   width: 100%;
+   margin-top: 20px;
+}
+
